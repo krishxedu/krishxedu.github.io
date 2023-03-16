@@ -1,0 +1,224 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {    
+    .header_section .navbar-nav .nav-item .nav-link {
+        padding: 0;
+        padding-top: 20px;
+    }
+    .header_section .form-inline .btn_custom{
+       margin-top: 20px;
+    }
+    br{
+        display: none;
+    }
+    .hero_txt h2 {
+        font-size: 40px;
+    }
+    .help_lft_txt h3 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+    .help_lft_txt p{
+        padding-bottom: 25px;
+    }
+    .help_rgt_txt {
+        margin-bottom: 25px;
+        margin-top: 0!important;
+    }
+    .what_do_all_boxs {
+        flex-direction: column;
+    }
+    .what_do_box {
+        margin-bottom: 30px;
+    }
+    .what_do_box:before{
+        display: none;
+        opacity: 0;
+    }
+    .circle_onee:before,
+    .circle_twoo:before,
+    .circle_three:before,
+    .circle_twoo,
+    .circle_three{
+        display: none;
+        opacity: 0;
+    }
+    .process_step{
+        margin-bottom: 25px;
+    }
+    .process_step .d_flex img {
+        transform: rotate(90deg);
+        margin-top: 16px;
+    }
+    .business_enlish h3, .project_box_lft h3 {
+        font-size: 40px;
+    }
+    .project_rvw_box{
+        width: 100%;
+    }
+    .keeh_box,
+    .ragevps_box,
+    .lexpay_box,
+    .rainproxy_box{
+        padding-left: 20px;
+    }
+    .contact_main_frm{
+        margin-top: 50px;
+    }
+    .ftr_links,
+    .ftr_logo{
+        margin-bottom: 25px;
+    }
+    .ftr_social ul,
+    .ftr_copy{
+        text-align: center!important;
+    }
+    .work_box_title {
+        flex-direction: column;
+    }
+    .work_box_title_2 .w_box_rgt,
+    .work_box_title_2 .w_box_lft{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .work_box_title p,
+    .w_box_rgt p{
+        text-align: left!important;
+    }
+    .work_box_title h5{
+        margin-bottom: 25px;
+    }
+    .work_box_feedback h4, .work_box_feedback h5{
+        width: 100%;
+        margin: 0;
+         font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .header_section .navbar-nav .nav-item .nav-link {
+        padding: 0;
+        padding-top: 20px;
+    }
+    .header_section .form-inline .btn_custom{
+       margin-top: 20px;
+    }
+    br{
+        display: none;
+    }
+    .hero_txt h2 {
+        font-size: 40px;
+    }
+    .help_lft_txt h3 {
+        font-size: 36px;
+        line-height: 110%;
+    }
+    .help_lft_txt p{
+        padding-bottom: 25px;
+    }
+    .help_rgt_txt {
+        margin-bottom: 25px;
+        margin-top: 0!important;
+    }
+    .what_do_all_boxs {
+        flex-direction: column;
+    }
+    .what_do_box {
+        margin-bottom: 30px;
+    }
+    .what_do_box:before{
+        display: none;
+        opacity: 0;
+    }
+    .circle_onee:before,
+    .circle_twoo:before,
+    .circle_three:before,
+    .circle_twoo,
+    .circle_three{
+        display: none;
+        opacity: 0;
+    }
+    .process_step{
+        margin-bottom: 25px;
+    }
+    .process_step .d_flex img {
+        transform: rotate(90deg);
+        margin-top: 16px;
+    }
+    .business_enlish h3, .project_box_lft h3 {
+        font-size: 40px;
+    }
+    .project_rvw_box{
+        width: 100%;
+    }
+    .keeh_box,
+    .ragevps_box,
+    .lexpay_box,
+    .rainproxy_box{
+        padding-left: 20px;
+    }
+    .contact_main_frm{
+        margin-top: 50px;
+    }
+    .ftr_links,
+    .ftr_logo{
+        margin-bottom: 25px;
+    }
+    .ftr_social ul,
+    .ftr_copy{
+        text-align: center!important;
+    }
+    .work_box_title {
+        flex-direction: column;
+    }
+    .work_box_title_2 .w_box_rgt,
+    .work_box_title_2 .w_box_lft{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .work_box_title p,
+    .w_box_rgt p{
+        text-align: left!important;
+    }
+    .work_box_title h5{
+        margin-bottom: 25px;
+    }
+    .work_box_feedback h4, .work_box_feedback h5{
+        width: 100%;
+        margin: 0;
+         font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    .help_lft_txt p{
+        padding-bottom: 25px;
+    }
+    .circle_onee:before,
+    .circle_twoo:before,
+    .circle_three:before,
+    .circle_twoo,
+    .circle_three{
+        display: none;
+        opacity: 0;
+    }
+    .contact_main_frm{
+        margin-top: 50px;
+    }
+    .ftr_links{
+        margin-top: 25px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+       
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
